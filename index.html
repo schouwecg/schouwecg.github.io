@@ -1,9 +1,82 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    
+    <link rel="stylesheet" href="styles.css">
+
+      </head>
 
 <body>
-  <h1>Eric Schouw</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <h1 id="title">The 2024 Movie Streaming Service Survey</h1>
+    <p id="description">What is your number one streaming service? </p>
 
-</html>
+<form id="survey-form">
+<fieldset>
+<label for="name" id="name-label"> What is your name?</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+
+<label for="email" id="email-label"> What is your email address?</label>
+    <input type="email" id="email" name="email" placeholder="Your email-address.." required>
+
+
+<label for="number" id="number-label"> What is your age? (optional)</label>
+          <input id="number" type="number" min="0" max= "120" name="number" placeholder="Your age..">
+</fieldset>
+<fieldset>
+<label for="dropdown"> What is your favorite streaming service?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Netflix</option>
+            <option value="2">HBO Max</option>
+            <option value="3">Disney+</option>
+            <option value="4">Amazon Prime Video</option>
+            <option value="5">Apple TV</option>
+            <option value="6">Hulu</option>
+            <option value="7">Other</option>
+          </select>
+        </label>  
+        </fieldset>
+
+<fieldset>
+<p> What do you like more, movies or TV-shows?</p>
+        <label for="movies">
+          <input id="movies" type="radio" name="movies-tvshows" value="movies" class="inline" checked>Movies
+        </label>
+        <label for="tvshows">
+          <input id="tvshows" type="radio" name="movies-tvshows" value="tvshows" class="inline">TV-shows
+        </label>
+</fieldset>
+<fieldset>
+<p> What are your favorite movie and tv shows genres? Check all that apply..</p>
+        <label for="action">
+          <input id="action" type="checkbox" name="action" value="1" class="inline"> Action
+        </label>
+        <label for="sf">
+          <input id="sf" type="checkbox" name="sf" value="2" class="inline"> Science Fiction
+        </label>
+        <label for="fantasy">
+          <input id="fantasy" type="checkbox" name="fantasy" value="3" class="inline"> Fantasy
+        </label>
+        <label for="comedy">
+          <input id="comedy" type="checkbox" name="comedy" value="4" class="inline"> Comedy
+        </label>
+        <label for="drama">
+          <input id="drama" type="checkbox" name="drama" value="5" class="inline"> Drama
+        </label>
+        <label for="kids">
+          <input id="kids" type="checkbox" name="kids" value="6" class="inline"> Kids
+        </label>
+</fieldset>
+<fieldset>
+
+<label for="comments"> Do you have any comments or suggestions?
+  <textarea id="comments" placeholder="comments, suggestions.."></textarea>
+</fieldset>
+<fieldset>
+<button id="submit">Submit</submit>
+</fieldset>
+      </form>
+    </body>
+
+  </html>

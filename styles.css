@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://wallpapers.com/downloads/high/streaming-service-1920-x-1080-wallpaper-qzg91vczttv02mxj.webp");
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-size: 18px;
+    font-family: Verdana;
+  }
+  
+  
+  h1 {
+    margin: 1em auto;
+    text-align: center;
+    color: #F6D776;
+  }
+  
+  #description {
+    text-align: center;
+    color: #65B741;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  
+  form {
+    background-color: #F6D776;
+    opacity: 0.8;
+    width: 50%;
+    margin: 10em auto;
+    margin-top: 2em;
+    border-radius:10px;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0.3rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  input {
+    display: block;
+    background-color: #FAEF9B;
+    padding: .5rem .4rem;
+    margin: 5px;
+    width: 75%;
+    font-size: 22px;
+   
+    
+  }
+  
+  .inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  textarea {
+    width: 75%;
+    padding: .5rem .3rem;
+    background-color: #FAEF9B;
+    max-width: 100%;
+    resize: none;
+    font-size: 22px;
+  }
+  
+  select {
+    background-color: #FAEF9B;
+    display: block;
+    width: 50%
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1.5rem 0;
+    width: 100%;
+    }
+  
+  input[type="checkbox"] {
+  accent-color: #FAEF9B;
+  }
+  
+  input[type="radio"] {
+  accent-color: #FAEF9B;
+  }
+  
+  button {
+    background-color: #FAEF9B;
+    width: 20%;
+    display: block;
+    height: 2em;
+    margin: 1em auto;
+    text-align: center;
+    font-weight: 900;
+  }
+  
