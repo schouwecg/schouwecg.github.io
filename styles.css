@@ -23,7 +23,7 @@ body {
   }
   
   form {
-    background-color: #F6D776;
+    background-color: #82AAE3;
     opacity: 0.8;
     width: 50%;
     margin: 10em auto;
@@ -40,7 +40,7 @@ body {
   
   input {
     display: block;
-    background-color: #FAEF9B;
+    background-color: #BFEAF5;
     padding: .5rem .4rem;
     margin: 5px;
     width: 75%;
@@ -59,14 +59,14 @@ body {
   textarea {
     width: 75%;
     padding: .5rem .3rem;
-    background-color: #FAEF9B;
+    background-color: #BFEAF5;
     max-width: 100%;
     resize: none;
     font-size: 22px;
   }
   
   select {
-    background-color: #FAEF9B;
+    background-color: #BFEAF5;
     display: block;
     width: 50%
   }
@@ -78,15 +78,15 @@ body {
     }
   
   input[type="checkbox"] {
-  accent-color: #FAEF9B;
+  accent-color: #BFEAF5;
   }
   
   input[type="radio"] {
-  accent-color: #FAEF9B;
+  accent-color: #BFEAF5;
   }
   
   button {
-    background-color: #FAEF9B;
+    background-color: #BFEAF5;
     width: 20%;
     display: block;
     height: 2em;
