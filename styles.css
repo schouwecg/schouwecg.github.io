@@ -45,6 +45,7 @@ body {
     margin: 5px;
     width: 75%;
     font-size: 22px;
+    border-radius:10px;
    
     
   }
@@ -63,6 +64,7 @@ body {
     max-width: 100%;
     resize: none;
     font-size: 22px;
+    border-radius:10px;
   }
   
   select {
@@ -93,5 +95,6 @@ body {
     margin: 1em auto;
     text-align: center;
     font-weight: 900;
+    border-radius:10px;
   }
   
