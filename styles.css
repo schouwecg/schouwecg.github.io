@@ -12,12 +12,12 @@ body {
   h1 {
     margin: 1em auto;
     text-align: center;
-    color: #F6D776;
+    color: #FF9843;
   }
   
   #description {
     text-align: center;
-    color: #65B741;
+    color: #F5F5DC;
     font-weight: 900;
     font-size: 22px;
   }
